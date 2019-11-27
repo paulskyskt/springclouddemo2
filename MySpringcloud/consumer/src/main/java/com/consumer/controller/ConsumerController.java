@@ -33,9 +33,4 @@ public class ConsumerController {
         return userClient.findPage();
     }
 
-    @RequestMapping("/index")
-    public String index(){
-        return "<a href=\"http://127.0.0.1:8080/hello.html\">首页2</a>";
-    }
-
 }
